@@ -10,3 +10,5 @@ Today I'm spending time reviewing core programming principals.
 <br>&emsp;&emsp;&emsp; 6. 'if' Statements
 <br>&emsp;&emsp;&emsp; 7. Nesting Statements ('else')
 <br>&emsp;&emsp;&emsp; 8. Chaining Statements ('else if')
+
+Finally, we will conclude with a Law of Large Numbers exercise that tests our understanding of the basic programming principals. 
