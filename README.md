@@ -9,4 +9,4 @@ Today I'm spending time reviewing core programming principals.
 <br>&emsp;&emsp;&emsp; 5. 'for' Loops
 <br>&emsp;&emsp;&emsp; 6. 'if' Statements
 <br>&emsp;&emsp;&emsp; 7. Nesting Statements ('else')
-<br>&emsp;&emsp;&emsp; 7. Chaining Statements ('else if')
+<br>&emsp;&emsp;&emsp; 8. Chaining Statements ('else if')
