@@ -21,7 +21,7 @@ typeof(z)
 a <-"h"
 typeof(a)
 
-#logical (TRUE, FALSE, T, F) 
+#logical/boolean (TRUE, FALSE, T, F) 
 q <- T
 typeof(q)
 q2 <- FALSE
@@ -100,8 +100,8 @@ result & result #FALSE
 
 # A while loop allows you to perform a command until the logical expression becomes false
 # A basic while loop looks like this
-#while(){}
-#while(logical expression) {body of loop}
+    #while(){}
+    #while(logical expression) {body of loop}
 
 # Ex. 1 - Since this statement is FALSE, nothing will happen
 while(FALSE){print("Hello")}
@@ -122,8 +122,8 @@ while(counter < 12){
 
 # A for loop allows you to perform a command a certain number of times
 # A basic for loop looks like this
-#for(){}
-#for(iteration expression) {body of loop}
+    #for(){}
+    #for(iteration expression) {body of loop}
 
 #Ex. 1 - print "Hello R" 5 times
 for(i in 1:5){
@@ -141,8 +141,8 @@ for(i in 5:10){
 
 # The If statement allows you to perform a command one time 
 # A basic if statement looks like this:
-#if(){}
-#if(logical expression){Action to perform}
+    #if(){}
+    #if(logical expression){Action to perform}
 
 #Ex. 1 - Generate a random number (using rnorm) and print "Greater than 1" if statement is true. 
 
@@ -154,3 +154,57 @@ if(h > 1){
   answer <- "Greater than 1"
 }
 #^^ 'answer' will not be created until the logic statement is true. 
+
+
+#Now that the 'answer' value has been stored, we need to remove it in order to reuse it.
+#remove 'answer' value
+rm(answer)
+
+
+# -------- "Else" statement --------
+
+
+# The 'else statement allows you to input a fallback option if something in not captured by the 'if' statement.
+# A basic else statement looks like this:
+    #if(){}else{}
+    #else{Action to perform}
+
+
+#Ex. 1 - if random number greater than 1 output "Greater than one". If not, return "Less than 1"
+if(h > 1){
+  answer <- "Greater than 1"
+}else{
+  answer <- "Less or equal to 1"
+}
+
+
+#Ex. 2 - nested if/else statement
+rm(answer)
+h <- rnorm(1)
+
+if(h > 1){
+  answer <- "Greater than 1"
+}else{
+        if(h >= -1){
+          answer <- "Between -1 & 1"
+} else{
+        answer <- "Less or equal to 1"
+}
+}
+
+
+# -------- "Else if" or Chaining Statement --------
+
+
+#Ex. 3 - create nested statement using "else if"
+rm(answer)
+h <- rnorm(1)
+if(h > 1){
+  answer <- "Greater than 1"
+}else if(h >= -1){
+  answer <- "Between -1 & 1"
+} else{
+  answer <- "Less or equal to 1"
+}
+
+
