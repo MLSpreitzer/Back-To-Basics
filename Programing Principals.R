@@ -18,7 +18,7 @@ typeof(z)
 a <-"h"
 typeof(a)
 
-#logical
+#logical (TRUE, FALSE, T, F) 
 q <- T
 typeof(q)
 q2 <- FALSE
@@ -54,5 +54,21 @@ message <- paste(greeting, name) #"Hello Bob"
 
 
 
+# -------- Logical operations --------
+
+# equal
+# not equal
+# less than
+# greater than 
+# less than or equal
+# greater than or equal
+# not
+# or
+# and
+# is true?
+  
+4 < 5 #TRUE
+10 > 100 #FALSE
+4 == 5 #FALSE
 
 
