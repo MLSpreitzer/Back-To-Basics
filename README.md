@@ -1,7 +1,7 @@
 # Back-To-Basics
 Today I'm spending time reviewing core programming principals. 
-<br>
-&emsp;&emsp;This code includes: 
+<br><br>
+&emsp;&emsp;Topics reviewed include:  
 <br>&emsp;&emsp;&emsp; 1. Variable Types
 <br>&emsp;&emsp;&emsp; 2. Math & Character Operations
 <br>&emsp;&emsp;&emsp; 3. Logical Operations
