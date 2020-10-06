@@ -135,3 +135,22 @@ for(i in 5:10){
   print("Hello R")
 }
 
+
+# -------- "If" statement --------
+
+
+# The If statement allows you to perform a command one time 
+# A basic if statement looks like this:
+#if(){}
+#if(logical expression){Action to perform}
+
+#Ex. 1 - Generate a random numnber (using rnorm) and print "Greater than 1" if statement is true. 
+
+# generate a random number and assign it to a variable. 
+#NOTE: you can change the normal distribution for the random number by changing mean and sd. By default mean = 0, sd = 1
+h <- rnorm(1)
+
+if(h > 1){
+  answer <- "Greater than 1"
+}
+#^^ 'answer' will not be created until the logic statement is true. 
