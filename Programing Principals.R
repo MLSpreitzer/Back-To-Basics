@@ -144,7 +144,7 @@ for(i in 5:10){
 #if(){}
 #if(logical expression){Action to perform}
 
-#Ex. 1 - Generate a random numnber (using rnorm) and print "Greater than 1" if statement is true. 
+#Ex. 1 - Generate a random number (using rnorm) and print "Greater than 1" if statement is true. 
 
 # generate a random number and assign it to a variable. 
 #NOTE: you can change the normal distribution for the random number by changing mean and sd. By default mean = 0, sd = 1
