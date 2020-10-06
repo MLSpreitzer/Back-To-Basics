@@ -1,6 +1,6 @@
 #This project will outline basic programming principals
 
-#Learning variables
+# -------- Variable Types ------------
 #Integer
 x <- 2L
 #check type to verify integer
@@ -24,8 +24,7 @@ typeof(q)
 q2 <- FALSE
 typeof(q2)
 
-# -----------------------------------------
-# Math operations
+# -------- Math operations --------
 
 #create variable A & B
 A <- 10
@@ -46,7 +45,7 @@ results <- var1 / var2 #0.625
 #square root of variable
 answer <- sqrt(var2) #2
 
-#character operations
+# -------- character operations --------
 greeting <- "Hello"
 name <- "Bob"
 
